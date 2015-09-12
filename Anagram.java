@@ -85,7 +85,7 @@ public class Solution {
 				    cnt += Math.abs(counts[i]);
 				}
 				System.out.println( cnt/2 );
-	        }
+			} 
 		}
     }
 }
