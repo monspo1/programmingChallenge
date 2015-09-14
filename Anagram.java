@@ -52,12 +52,13 @@ public class Solution {
     public Solution() {}
     
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
         
         while (scanner.hasNext()) {
-        	//if(t < 1 || t > 10) System.out.println("Not proper testcases");  // <-- Don't include any unnecessary comments. It will NOT make pass some testcases.   
+        	//if(t < 1 || t > 10) System.out.println("Not proper testcases");  
+            // <-- Don't include any unnecessary comments. It will NOT make pass some testcases.   
 			String s = scanner.next();  
 			int len = s.length();
 			

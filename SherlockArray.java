@@ -24,12 +24,14 @@ public class Solution {
     }
               
     
-    public static boolean sherlockBetter(int[] arr){
+    // solution for O(N) in both time (3*N) and space (2*N)
+    public static boolean sherlockBetter(int[] arr){ 
         int n = arr.length;
-        if(n == 1) return true;
+        if(n == 1) return true; // base case: return true (sum is considered to be 0 when no element to the left/right)
+         (when no elements to the left/right, then the sum is considered to be zero. 
         
-        int[] sumFromLeft = new int[n]; 
-        int[] sumFromRight = new int[n];   
+        int[] sumFromLeft = new int[n];     // Array summing from left
+        int[] sumFromRight = new int[n];    // Array summing from right
         sumFromLeft[0] = arr[0];    
         sumFromRight[n-1] = arr[n-1];    
         int i = 1, j = n-2;    
@@ -43,7 +45,7 @@ public class Solution {
             j--;
         }
         
-        int m = 1;
+        int m = 1; // index to compare both leftSum & rightSum
         while(m + 1 < n){
             if(sumFromLeft[m-1] == sumFromRight[m+1]) return true;  
             m++;
@@ -51,6 +53,8 @@ public class Solution {
         return false;
     }  
     
+    // Naive solution which return exceeding runtime 
+    // O(N^2) solution
     public static boolean sherlockNaive(int[] arr){
         int i = 1, n = arr.length, leftSum, rightSum;
         if(arr.length < 1){ 
