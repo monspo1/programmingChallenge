@@ -1,4 +1,5 @@
 /* 
+// Not my source code..(For studying)
 // Solution from 
 // http://blueocean-penn.blogspot.com/2014/12/count-luck-maz.html
 //*/
