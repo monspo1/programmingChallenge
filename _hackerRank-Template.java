@@ -23,4 +23,23 @@ public static void main(String[] args) {
         System.out.println(sum);
     }
     //*/
+    
+    
+    /* skip unnecessary characters
+    /* // From the inut example below, you want to only read numbers, not escape characters
+            3
+          /   \
+         5     2
+        / \    /
+       1   4  6
+
+    String line;
+		
+    BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+    while ((line = r.readLine()) != null) {
+        r.readLine();  // skip lines with / or \
+        line = line.replaceAll(" ", "");    // remove all spaces
+        System.out.print(line); // print 352146 
+    }
+    //*/
 }
