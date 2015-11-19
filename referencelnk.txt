@@ -1,0 +1,63 @@
+/*
+
+- Reorder linked list
+http://www.programcreek.com/2013/12/in-place-reorder-a-singly-linked-list-in-java/
+
+- Expression evaluation
+http://www.lintcode.com/en/problem/expression-evaluation/   (Question)
+http://www.programcreek.com/2014/06/leetcode-basic-calculator-java/
+http://buttercola.blogspot.com/2015/09/leetcode-basic-calculator-ii.html
+http://www.geeksforgeeks.org/expression-evaluation/
+
+http://codechen.blogspot.com/2015/06/leetcode-basic-calculator-ii.html
+http://sbzhouhao.net/LeetCode/LeetCode-Basic-Calculator-II.html
+
+
+- implement Queue using stacks
+http://www.programcreek.com/2014/07/leetcode-implement-queue-using-stacks-java/
+
+- Basic Calculator (stack)
+http://www.programcreek.com/2014/06/leetcode-basic-calculator-java/
+
+- Remove extra brackets
+http://flexaired.blogspot.com/2013/05/remove-extra-brackets-from.html
+http://stackoverflow.com/questions/18400741/remove-redundant-parentheses-from-an-arithmetic-expression
+
+
+- Evaluate Reverse Polish Notation (Stack)
+http://www.programcreek.com/2012/12/leetcode-evaluate-reverse-polish-notation/
+: Evaluate the value of an arithmetic expression in Reverse Polish Notation. Valid operators are +, -, *, /. 
+Each operand may be an integer or another expression. For example:
+["2", "1", "+", "3", "*"] -> ((2 + 1) * 3) -> 9
+["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
+
+
+- LRU cache
+http://www.programcreek.com/2013/03/leetcode-lru-cache-java/
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Solved in Stack Section...
+////////////////////////////////////////////////////////////////////////////////
+- Simplify Path
+http://rleetcode.blogspot.com/2014/01/simplify-path-java.html
+http://www.programcreek.com/2014/04/leetcode-simplify-path-java/
+
+- rain trapper(stack)
+http://www.shuatiblog.com/blog/2014/05/14/Trapping-Rain-Water/
+http://n00tc0d3r.blogspot.sg/2013/06/trapping-rain-water.html
+http://blog.csdn.net/linhuanmars/article/details/20888505
+
+- Max sliding windows of size k 
+http://n00tc0d3r.blogspot.com/2013/04/sliding-window-maximum.html
+http://codereview.stackexchange.com/questions/55513/maximum-of-all-subarrays-of-size-k
+http://algorithm.yuanbin.me/zh-cn/data_structure/sliding_window_maximum.html 
+http://articles.leetcode.com/2011/01/sliding-window-maximum.html
+http://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/
+https://askmecode.wordpress.com/2012/07/17/sliding-window-maximum-i/
+https://askmecode.wordpress.com/2012/07/17/sliding-window-maximum-ii%EF%BC%88with-double-ended-queue%EF%BC%89/
+
+
+
+//*/
+
